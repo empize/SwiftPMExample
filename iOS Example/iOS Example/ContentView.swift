@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import SwiftPMExample
 
 struct ContentView: View {
+    @State private var text = ""
     var body: some View {
-        Text("Hello, world!")
+            SwiftPMExample.TextFields.MobileNo(
+              text: $text,
+              placeholder: "Mobile No"
+            )
             .padding()
-    }
+        }
 }
 
 struct ContentView_Previews: PreviewProvider {
