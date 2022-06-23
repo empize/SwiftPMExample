@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftpmexample",
+      "kind" : "localSourceControl",
+      "location" : "/Users/yanghyun-pil/Desktop/SwiftPMExample",
+      "state" : {
+        "revision" : "30c6670f8baae2bc6547bbefac08df8e1839ac58",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
